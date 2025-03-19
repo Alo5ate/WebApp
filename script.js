@@ -10,6 +10,8 @@ const classbackBtnTwo = document.querySelector(".classback-btn_two");
 const classbackBtnThree = document.querySelector(".classback-btn_three");
 const classbackBtnfour = document.querySelector(".classback-btn_four");
 
+
+
 const faqs = document.querySelectorAll(".faq");
 
 
@@ -30,7 +32,9 @@ const toggleScreenPage3 = () =>{
 const toggleScreenPage4 = () =>{
     wrapper.classList.toggle("show-page4")
 };
-
+const toggleScreenEnquery = () =>{
+    wrapper.classList.toggle("inqueries-btn")
+};
 
 
 startbtn.addEventListener("click", toggleScreen);
@@ -48,8 +52,11 @@ classbackBtnTwo.addEventListener("click", toggleScreenPage2);
 clas3Tog.addEventListener("click", toggleScreenPage3);
 classbackBtnThree.addEventListener("click", toggleScreenPage3);
 
-clas4Tog.addEventListener("click", toggleScreenPage4);
-classbackBtnfour.addEventListener("click", toggleScreenPage4);
+//clas4Tog.addEventListener("click", toggleScreenPage4);
+//classbackBtnfour.addEventListener("click", toggleScreenPage4);
+
+
+
 
 
 faqs.forEach((faq) =>{
